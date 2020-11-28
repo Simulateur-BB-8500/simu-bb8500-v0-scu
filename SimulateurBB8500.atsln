@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commun", "Commun", "{8BA4169C-AC92-486D-BC4D-88ECE686A624}"
+	ProjectSection(SolutionItems) = preProject
+		Afficheur7Segments.h = Afficheur7Segments.h
+		DoubleInterrupteur.h = DoubleInterrupteur.h
+		Instructions.h = Instructions.h
+		Interrupteur.h = Interrupteur.h
+		Lampe.h = Lampe.h
+		MoteurPasAPas.h = MoteurPasAPas.h
+		Pin.h = Pin.h
+		Selecteur3.h = Selecteur3.h
+		Selecteur4.h = Selecteur4.h
+		Sonnerie.h = Sonnerie.h
+	EndProjectSection
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "NTIU", "NTIU\NTIU.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "SCU-DUE1", "SCU-DUE1\SCU-DUE1.cppproj", "{6FCC8C11-094C-4E8D-821D-90D9DF242911}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "SCU-DUE2", "SCU-DUE2\SCU-DUE2.cppproj", "{63D7F26D-6216-488F-89D2-6C0539D621C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6158A459-6A79-4658-A5A1-583AB920AC3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|AVR = Debug|AVR
+		Release|ARM = Release|ARM
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{6FCC8C11-094C-4E8D-821D-90D9DF242911}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6FCC8C11-094C-4E8D-821D-90D9DF242911}.Debug|ARM.Build.0 = Debug|ARM
+		{6FCC8C11-094C-4E8D-821D-90D9DF242911}.Debug|AVR.ActiveCfg = Debug|ARM
+		{6FCC8C11-094C-4E8D-821D-90D9DF242911}.Release|ARM.ActiveCfg = Release|ARM
+		{6FCC8C11-094C-4E8D-821D-90D9DF242911}.Release|ARM.Build.0 = Release|ARM
+		{6FCC8C11-094C-4E8D-821D-90D9DF242911}.Release|AVR.ActiveCfg = Release|ARM
+		{63D7F26D-6216-488F-89D2-6C0539D621C1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{63D7F26D-6216-488F-89D2-6C0539D621C1}.Debug|ARM.Build.0 = Debug|ARM
+		{63D7F26D-6216-488F-89D2-6C0539D621C1}.Debug|AVR.ActiveCfg = Debug|ARM
+		{63D7F26D-6216-488F-89D2-6C0539D621C1}.Release|ARM.ActiveCfg = Release|ARM
+		{63D7F26D-6216-488F-89D2-6C0539D621C1}.Release|ARM.Build.0 = Release|ARM
+		{63D7F26D-6216-488F-89D2-6C0539D621C1}.Release|AVR.ActiveCfg = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
